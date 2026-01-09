@@ -1,11 +1,9 @@
 [project]
 name = "blendconf"
-version = "1.0.0"
+version = "1.0.0.post1"
 description = "Helper to merge multiple configuration files into one file."
 readme = "README.md"
-authors = [
-    { name = "Olaf Gladis", email = "hwmrocker@gladis.org" }
-]
+authors = [{ name = "Olaf Gladis", email = "hwmrocker@gladis.org" }]
 requires-python = ">=3.12"
 dependencies = [
     "python-dotenv>=1.2.1",
@@ -21,7 +19,4 @@ requires = ["uv_build>=0.9.7,<0.10.0"]
 build-backend = "uv_build"
 
 [dependency-groups]
-dev = [
-    "pytest>=9.0.2",
-    "pytest-watcher>=0.6.2",
-]
+dev = ["pytest>=9.0.2", "pytest-watcher>=0.6.2"]
