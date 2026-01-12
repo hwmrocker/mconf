@@ -1,0 +1,10 @@
+[server]
+port = 9000
+debug = true
+
+[cache]
+ttl = 7200
+
+[security]
+max_login_attempts = 3
+rate_limiting = true

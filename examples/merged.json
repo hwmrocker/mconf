@@ -1,0 +1,20 @@
+{
+    "database": {
+        "host": "production.db.example.com",
+        "port": 5432,
+        "name": "myapp",
+        "username": "admin"
+    },
+    "logging": {
+        "level": "WARNING",
+        "file": "app.log"
+    },
+    "features": {
+        "beta": true,
+        "analytics": true
+    },
+    "api": {
+        "endpoint": "https://api.example.com",
+        "timeout": 30
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "database": {
+        "host": "production.db.example.com",
+        "username": "admin"
+    },
+    "logging": {
+        "level": "WARNING"
+    },
+    "features": {
+        "beta": true
+    },
+    "api": {
+        "endpoint": "https://api.example.com",
+        "timeout": 30
+    }
+}
