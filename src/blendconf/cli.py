@@ -48,7 +48,7 @@ def main(
         raise typer.Exit(code=1)
 
     try:
-        merged_config = merge_configs(input_files, MergeStrategy.REPLACE)
+        merged_config = merge_configs(input_files, merge_strategy)
 
         if output_file is None:
             suffix = input_files[0].suffix.lower() if input_files else ".yaml"
